@@ -1,1 +1,3 @@
-# World_Weather_Analysis
+# **World_Weather_Analysis**
+
+The following analysis is performed to collect and present data via the search page which will be filtered based on the client's preferred travel criteria to find their ideal hotel anywhere in the world. We have used the citipy module to get the cities from more than 2000 random latitudes and longitudes. Furthermore, we performed requests on the OpenWeather map API to retrieve the JSON weather data from these cities then created a DataFrame containing the weather data. Additionally, through input statements we have retrieved customer weather preferences, then used those preferences to identify potential travel destinations and nearby hotels. Finally, we used the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, created a marker layer map with a pop-up marker for each city on the itinerary.
